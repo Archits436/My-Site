@@ -207,4 +207,10 @@ a {
     height: 3.5rem;
     width: 3.5rem;
     margin-top: 9px;
+    position: absolute;
+    left: 5%;
+}
+
+.container{
+    margin-right: 1rem;
 }
