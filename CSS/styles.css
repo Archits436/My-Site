@@ -199,13 +199,18 @@ a {
 .nav-link {
     color: #E4F9f5 !important;
 }
-.nav-link :hover{
-    transition: ease-in-out 1s !important;
-    color: #40514E !important;
-}
+
 .navbar-brand{
     height: 3.5rem;
     width: 3.5rem;
     margin-top: 9px;
+    position: absolute;
+    left: 5%;
 }
+
+.container{
+    margin-right: 1rem;
+}
+
+
 
