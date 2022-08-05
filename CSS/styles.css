@@ -1,6 +1,7 @@
-title{
+title {
     font-family: 'Sacramento', cursive;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -200,7 +201,7 @@ a {
     color: #E4F9f5 !important;
 }
 
-.navbar-brand{
+.navbar-brand {
     height: 3.5rem;
     width: 3.5rem;
     margin-top: 9px;
@@ -208,9 +209,30 @@ a {
     left: 5%;
 }
 
-.container{
+.container {
     margin-right: 1rem;
 }
 
+@media screen and (max-width : 320px) {
+    .top-cloud {
+        position: absolute;
+        right: 5%;
+        top: 3.5rem;
+        width: 20vw;
+    }
 
+    .top-container > h1{
+        font-size: 23vw;
+    }
 
+    .bottom-cloud{
+        width: 20vw;
+        top: 40vh;
+        left: 10vw;
+    }
+
+    .mountain{
+        width: 95vw;
+        height: 30vh;
+    }
+}
