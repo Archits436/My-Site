@@ -213,7 +213,7 @@ a {
     margin-right: 1rem;
 }
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width : 351px) {
     .top-cloud {
         position: absolute;
         right: 5%;
