@@ -30,6 +30,10 @@ a {
     color: #11999E;
 }
 
+em{
+    font-size: 1.5rem;
+}
+
 /* -----------------NAVBAR------------------ */
 
 .bg-secondary {
@@ -124,6 +128,42 @@ a {
     text-align: left;
 }
 
+/* ---------------------MY PROJECTS---------------------- */
+
+.project-tripeazium {
+    width: 30%;
+    float: left;
+    margin-right: 6%;
+    border-radius: 10%;
+}
+
+.project-tindog {
+    width: 30%;
+    float: right;
+    margin-left: 6%;
+    border-radius: 100%;
+}
+
+.project-row {
+    width: 50%;
+    margin: 5.2rem auto 8rem;
+    line-height: 2;
+}
+
+.project-name,
+.project-desc {
+    text-align: left;
+}
+
+.project-link{
+    text-decoration: none;
+}
+
+.project-link:hover{
+    background-color: #40514E;
+    color: azure;
+}
+
 /* --------------CONTACT-ME---------------- */
 
 .touch,
@@ -157,6 +197,10 @@ a {
 
 .social-icon:hover {
     transform: scale(1.2);
+}
+
+.know-more {
+    line-height: 3;
 }
 
 .copyright {
