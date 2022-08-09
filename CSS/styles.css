@@ -178,6 +178,11 @@ em{
     font-size: 1.3rem;
 }
 
+.email-id:hover{
+    background-color: #11999E;
+    color: white;
+}
+
 /* -------------------BOTTOM CONTAINER------------------- */
 
 .bottom-container {
