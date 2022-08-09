@@ -1,27 +1,55 @@
-title {
-    font-family: 'Sacramento', cursive;
-}
+/* -------------------HTML SELECTORS--------------------- */
 
 body {
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: 'Merriweather', serif;
-    margin-bottom: 0%;
+    font-family: 'Merriweather';
     color: #40514E;
 }
 
 hr {
     margin: 5% auto 5%;
-    border-style: none;
     border-top: dotted;
     border-width: 0.4rem;
     text-align: center;
-    width: 5%;
+    width: 7%;
     color: rgb(111, 109, 109);
     background-color: #E4F9f5;
-
 }
+
+h2 {
+    color: #66bfbf;
+    font-size: 2.5rem;
+    font-family: 'Montserrat';
+    font-weight: normal;
+}
+
+h3,
+a {
+    color: #11999E;
+}
+
+/* -----------------NAVBAR------------------ */
+
+.bg-secondary {
+    background-color: #01c5cb !important;
+    height: 10vh;
+}
+
+.nav-link {
+    color: #E4F9f5 !important;
+}
+
+.navbar-brand {
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-top: 9px;
+    position: absolute;
+    left: 5%;
+}
+
+/* -----------------TOP CONTAINER ----------------------- */
 
 .top-container {
     padding-top: 8%;
@@ -29,41 +57,15 @@ hr {
     position: relative;
 }
 
-.top-container>h1 {
+.big-name {
     color: #66bfbf;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Sacramento';
     font-size: 5.625rem;
     margin-bottom: 0.2rem;
 }
 
-.top-container>h2 {
+.desc {
     font-size: 2rem;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-}
-
-.profile-pic {
-    margin-top: 5%;
-}
-
-h2 {
-    color: #66bfbf;
-    font-size: 2.5rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-}
-
-h3 {
-    color: #11999E;
-}
-
-h4 {
-    font-family: 'Mulish', sans-serif;
-    font-weight: lighter;
-}
-
-a {
-    color: #11999E;
 }
 
 .top-cloud {
@@ -83,32 +85,23 @@ a {
     margin-top: 0%;
 }
 
+/* --------------------------MIDDLE CONTAINER------------------------- */
+
 .middle-container {
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Mulish';
     font-size: large;
 }
 
-.bottom-container {
-    font-family: 'Mulish', sans-serif;
-    background-color: #66bfbf;
-    color: #eaf6f6;
-    height: 20%;
-    padding: 4rem;
-    padding-bottom: 0%;
-}
-
-.bottom-container>p {
-    margin-top: 2%;
-    margin-bottom: 0%;
-    font-size: 0.95rem;
-    padding-bottom: 2%;
-}
-
 .profile-pic {
+    margin-top: 5%;
+    padding-bottom: 13px;
     height: 30vh;
 }
 
-.skill-webd {
+/* -------------------SKILLS-------------------- */
+
+.skill-webd,
+.skill-momo {
     width: 30%;
     float: left;
     margin-right: 6%;
@@ -120,100 +113,62 @@ a {
     margin-left: 6%;
 }
 
-.skill-momo {
-    width: 30%;
-    float: left;
-    margin-right: 6%;
-}
-
-.gmail {
-    margin-right: 1.4rem;
-    height: 5vh;
-}
-
-.gmail:hover {
-    transform: scale(1.2);
-}
-
-.instagram:hover {
-    transform: scale(1.2);
-}
-
-.linked-in {
-    height: 5vh;
-    margin-right: 1.4rem;
-}
-
-.linked-in:hover {
-    transform: scale(1.2);
-}
-
-.twitter {
-    height: 5vh;
-    margin-right: 1.4rem;
-}
-
-.twitter:hover {
-    transform: scale(1.2);
-}
-
-.instagram {
-    height: 5vh;
-}
-
-.instagram:hover {
-    transform: scale(1.2);
-}
-
 .skill-row {
     width: 50%;
     margin: 5.2rem auto 8rem;
     line-height: 2;
 }
 
-.skill-row>h3 {
+.skill-name,
+.skill-desc {
     text-align: left;
 }
 
-.skill-row>p {
-    text-align: left;
-}
+/* --------------CONTACT-ME---------------- */
 
-.contact-me>h2 {
+.touch,
+.touch-desc {
     line-height: 2;
 }
 
-.contact-me>h3 {
-    line-height: 2;
-}
-
-.contact-me>h4 {
+.bottom-line {
+    font-family: 'Mulish', sans-serif;
+    font-weight: lighter;
     line-height: 2;
     font-size: 1.3rem;
 }
 
-.bg-secondary {
-    background-color: #01c5cb !important;
-    height: 10vh;
+/* -------------------BOTTOM CONTAINER------------------- */
+
+.bottom-container {
+    font-family: 'Mulish';
+    background-color: #66bfbf;
+    color: #eaf6f6;
+    height: 20%;
+    padding: 4rem;
+    padding-bottom: 0%;
 }
 
-.nav-link {
-    color: #E4F9f5 !important;
+.social-icon {
+    margin-right: 1.4rem;
+    height: 5vh;
+    margin-bottom: 2rem;
 }
 
-.navbar-brand {
-    height: 3.5rem;
-    width: 3.5rem;
-    margin-top: 9px;
-    position: absolute;
-    left: 5%;
+.social-icon:hover {
+    transform: scale(1.2);
 }
 
-.container {
-    margin-right: 1rem;
+.copyright {
+    margin-top: 2%;
+    margin-bottom: 0%;
+    font-size: 0.95rem;
+    padding-bottom: 2%;
 }
 
-@media screen and (max-width : 351px) {
+/* ------------------------MEDIA QUERIES------------------------ */
+
+@media screen and (max-width : 393px) {
     .top-cloud {
         position: absolute;
         right: 5%;
@@ -221,18 +176,105 @@ a {
         width: 20vw;
     }
 
-    .top-container > h1{
+    .big-name {
         font-size: 23vw;
     }
 
-    .bottom-cloud{
+    .bottom-cloud {
         width: 20vw;
         top: 40vh;
         left: 10vw;
     }
 
-    .mountain{
+    .mountain {
         width: 95vw;
         height: 30vh;
+    }
+
+    .profile-pic {
+        height: 20vh;
+    }
+
+    h2 {
+        font-size: 5vh;
+    }
+
+    .touch {
+        font-size: 5vh;
+    }
+
+    .touch-desc {
+        font-size: 5vw;
+    }
+
+    .bottom-line {
+        font-size: 5vw;
+    }
+
+}
+
+@media screen and (min-width: 394px) and (max-width: 700px) {
+    .big-name {
+        font-size: 23vw;
+    }
+
+    .top-cloud {
+        width: 20%;
+        right: 5%;
+    }
+
+    .bottom-cloud {
+        width: 20%;
+        left: 10%;
+    }
+
+    .mountain {
+        width: 99vw;
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 945px) {
+    .top-cloud {
+        width: 15%;
+        right: 3%;
+        top: 2%;
+    }
+
+    .bottom-cloud {
+        width: 20%;
+        left: 7%;
+        top: 50%;
+    }
+
+    .mountain {
+        width: 99vw;
+    }
+}
+
+@media screen and (min-width: 945px) and (max-width: 1101px) {
+    .top-cloud {
+        right: 10%;
+    }
+
+    .bottom-cloud {
+        top: 50%;
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1300px) {
+    .top-cloud {
+        right: 15%;
+    }
+
+    .bottom-cloud {
+        top: 50%;
+    }
+}
+
+@media screen and (max-width : 393px) {
+    .social-icon {
+        width: 9vw;
+        height: 2.2rem;
     }
 }
